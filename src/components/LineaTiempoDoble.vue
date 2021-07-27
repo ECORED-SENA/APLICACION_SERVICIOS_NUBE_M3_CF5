@@ -5,11 +5,12 @@ div
       .col-md-6
         //- LineaTiempoD debe ir acompañado de una de una de estas clases => 
         //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
+        p #[strong Durante el proceso de desarrollo de software]
         LineaTiempoD.color-secundario
           .row(numero="1" titulo=" Pruebas estáticas")
             .col-6.col-md-5.offset-3.offset-md-1
               figure
-                img(src='@/assets/template/tema-1-3.svg', alt='Texto que describa la imagen')
+                img(src='@/assets/template/tema-1-3.svg', alt='Texto que describa la imagen').mb-3
             .col-md-6.mb-4.mb-md-0.mt-4.mt-md-0
               p Se realizan mientras se construye el código fuente, se basan en las pruebas de escritorio antes vistas o más completas basadas en flujos de aplicación (hacer todo el proceso informático). 
           .row(numero="2" titulo="Pruebas dinámicas")
@@ -22,6 +23,7 @@ div
       .col-md-6
         //- LineaTiempoD debe ir acompañado de una de una de estas clases => 
         //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
+        p #[strong Pruebas no funcionales al finalizar la etapa de desarrollo]
         LineaTiempoD.color-secundario
           .row(numero="1" titulo="Pruebas de compatibilidad ")
             .col-6.col-md-5.offset-3.offset-md-1

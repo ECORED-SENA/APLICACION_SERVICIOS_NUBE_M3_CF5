@@ -57,12 +57,38 @@ export default {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Testing de la API REST con Postman',
+        titulo: 'Pruebas de integridad de datos.',
         desarrolloContenidos: true,
         subMenu: [],
       },
     ],
-    subMenu: [],
+    subMenu: [
+      {
+        nombreRuta: 'glosario',
+        icono: 'fas fa-sort-alpha-down',
+        titulo: 'Glosario',
+      },
+      {
+        nombreRuta: 'complementario',
+        icono: 'far fa-folder-open',
+        titulo: 'Material complementario',
+      },
+      {
+        icono: 'fas fa-book',
+        titulo: 'Referencias bibliográficas',
+        nombreRuta: 'referencias',
+      },
+      {
+        icono: 'fas fa-download',
+        titulo: 'Descargar material',
+        download: 'downloads/material.zip',
+      },
+      {
+        icono: 'far fa-registered',
+        titulo: 'Créditos',
+        nombreRuta: 'creditos',
+      },
+    ],
   },
   referencias: [
     {
@@ -127,37 +153,71 @@ export default {
   creditos: {
     liderEquipo: [
       {
-        nombre: 'Rafael Neftalí Lizcano Reyes',
-        cargo: 'Asesor metodológico y pedagógico',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+        nombre: 'María Camila García Santamaría',
+        cargo: 'Líder de equipo',
+        centro: 'Dirección General',
       },
     ],
     contenidoInstruccional: [
       {
+        nombre: 'Rafael Neftalí Lizcano Reyes',
+        cargo: 'Asesor metodológico y pedagógico',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
         nombre: 'Henry Eduardo Bastidas Paruma',
         cargo: 'Experto temático',
         centro:
-          'Regional Cauca - Centro de teleinformática y producción industrial',
+          'Centro de teleinformática y producción industrial - Regional Cauca',
       },
       {
         nombre: 'Peter Emerson Pinchao Solis',
         cargo: 'Experto temático',
         centro:
-          'Regional Cauca - Centro de teleinformática y producción industrial',
+          'Centro de teleinformática y producción industrial - Regional Cauca',
       },
-    ],
-    desarrolloProducto: [
       {
         nombre: 'Oscar Absalón Guevara',
         cargo: 'Diseñador instruccional',
-        centro: 'Regional distrito capital – Centro de Gestión Industrial',
+        centro: 'Centro de Gestión Industrial - Regional Distrito Capital',
       },
       {
         nombre: 'José Gabriel Ortiz Abella',
         cargo: 'Corrector de estilo',
         centro:
-          'Regional Distrito Capital – Centro para la Industria de la Comunicación Gráfica.',
+          'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
+      },
+    ],
+    desarrolloProducto: [
+      {
+        nombre: 'Francisco José Lizcano Reyes',
+        cargo: 'Responsable del equipo',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Leyson Fabian Castaño Perez',
+        cargo: 'Soporte organizacional',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
+      },
+      {
+        nombre: ['Luis Fernando Sarmiento Betancourth'],
+        cargo: 'Diseño web',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Lizeth Karina Manchego Suárez',
+        cargo: 'Desarrollo front-end',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Jenny Paola Montillo Gélvez',
+        cargo: 'Validación de diseño y contenido',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
     ],
     gestoresRepositorio: [

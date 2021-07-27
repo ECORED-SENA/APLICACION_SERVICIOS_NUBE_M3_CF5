@@ -12,6 +12,8 @@ div
       tr
         td.text-center.py-4 Requieren intervención de los usuarios o las personas.
         td.text-center No requieren total intervención humana, usan un software especializado para tal fin. 
+        
+        
        
 
 
