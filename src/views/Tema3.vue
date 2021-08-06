@@ -11,7 +11,7 @@
     p.mt-5 Las pruebas de integridad de base de datos son pruebas de los métodos y procesos utilizados para acceder y gestionar datos (base de datos), para asegurar que los métodos de acceso, los procesos y las reglas de los datos funcionan como se espera y que, durante el acceso a la base de datos, los datos no se corrompan, sean borrados, modificados o creados de forma inesperada #[strong (Globe Testing, 2021)].
     figure.mb-5.mt-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/SLPqBj9XjWc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       .row.mt-4
         .col-10.col-md-6.offset-1.offset-md-3
           .cajon.color-secundario.p-4.mb-4

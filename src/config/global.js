@@ -57,7 +57,7 @@ export default {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Pruebas de integridad de datos.',
+        titulo: 'Pruebas de integridad de datos',
         desarrolloContenidos: true,
         subMenu: [],
       },
@@ -94,7 +94,7 @@ export default {
     {
       referencia:
         'Cobo, Á. (2007). Diseño y programación de bases de datos. Visión Libros.',
-      link: ' ',
+      link: '',
     },
     {
       referencia:
@@ -113,7 +113,7 @@ export default {
     {
       termino: 'Datos',
       significado:
-        'Son la mínima unidad semántica, y se corresponden con elementos primarios de información que por sí solos son irrelevantes como apoyo a la toma de decisiones',
+        'Son la mínima unidad semántica, y se corresponden con elementos primarios de información que por sí solos son irrelevantes como apoyo a la toma de decisiones.',
     },
     {
       termino: 'Información',
@@ -123,7 +123,7 @@ export default {
     {
       termino: 'Tabla – entidad',
       significado:
-        'La entidad es cualquier clase de objeto o conjunto de elementos presentes o no, en un contexto determinado dado por el sistema de información',
+        'La entidad es cualquier clase de objeto o conjunto de elementos presentes o no, en un contexto determinado dado por el sistema de información.',
     },
     {
       termino: 'Relación',
@@ -133,14 +133,14 @@ export default {
     {
       termino: 'Registro',
       significado:
-        'Guardan una serie de características similares o que pueden ser agrupados o clasificados dadas sus características comunes en grupos bien delimitados',
+        'Guardan una serie de características similares o que pueden ser agrupados o clasificados dadas sus características comunes en grupos bien delimitados.',
     },
   ],
   complementario: [
     {
       texto:
         'Red de Producción de Contenidos Grupo Gestión Curricular SENA. (22 de mayo de 2021). Pruebas de integridad de datos. [Video]. YouTube. ',
-      tipo: 'Vídeo',
+      tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=SLPqBj9XjWc',
     },
     {
@@ -153,8 +153,8 @@ export default {
   creditos: {
     liderEquipo: [
       {
-        nombre: 'María Camila García Santamaría',
-        cargo: 'Líder de equipo',
+        nombre: 'Maria Camila García Santamaría',
+        cargo: 'Líder del equipo',
         centro: 'Dirección General',
       },
     ],
@@ -163,19 +163,19 @@ export default {
         nombre: 'Rafael Neftalí Lizcano Reyes',
         cargo: 'Asesor metodológico y pedagógico',
         centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura  - Regional Santander',
       },
       {
         nombre: 'Henry Eduardo Bastidas Paruma',
-        cargo: 'Experto temático',
+        cargo: 'Experto Temático',
         centro:
-          'Centro de teleinformática y producción industrial - Regional Cauca',
+          'Centro de Teleinformática y Producción Industrial - Regional Cauca',
       },
       {
         nombre: 'Peter Emerson Pinchao Solis',
-        cargo: 'Experto temático',
+        cargo: 'Experto Temático',
         centro:
-          'Centro de teleinformática y producción industrial - Regional Cauca',
+          'Centro de Teleinformática y Producción Industrial - Regional Cauca',
       },
       {
         nombre: 'Oscar Absalón Guevara',
@@ -194,7 +194,7 @@ export default {
         nombre: 'Francisco José Lizcano Reyes',
         cargo: 'Responsable del equipo',
         centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura  - Regional Santander',
       },
       {
         nombre: 'Leyson Fabian Castaño Perez',
@@ -202,29 +202,29 @@ export default {
         centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
       {
-        nombre: ['Luis Fernando Sarmiento Betancourth'],
+        nombre: 'Luis Fernando Sarmiento Betancourth',
         cargo: 'Diseño web',
         centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura  - Regional Santander',
       },
       {
         nombre: 'Lizeth Karina Manchego Suárez',
         cargo: 'Desarrollo front-end',
         centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura  - Regional Santander',
       },
       {
         nombre: 'Jenny Paola Montillo Gélvez',
         cargo: 'Validación de diseño y contenido',
         centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura  - Regional Santander',
       },
     ],
     gestoresRepositorio: [
       {
         nombre: 'Milady Tatiana Villamil Castellanos',
         cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
     ],
   },

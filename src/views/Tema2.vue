@@ -67,11 +67,15 @@
           .row.mt-4
             .col-12.col-md-12.bg-gris.rounded.letter-spacing-2
               .h5.px-5.pt-4.mb-0 MariaDB [acl]> SHOW GRANTS FOR ‘newuser’@‘localhost’;
-              .h5.px-5.mt-2.mb-0 +——————————————————————————————————————————————————————+
-              .h5.px-5.mt-2.mb-0 | Grants for newuser@localhost                         |                       
-              .h5.px-5.mt-2.mb-0 +——————————————————————————————————————————————————————+
-              .h5.px-5.mt-2.mb-0 | GRANT ALL PRIVILEGES ON *.* TO `newuser`@`localhost` |
-              .h5.px-5.mt-2.mb-0 +——————————————————————————————————————————————————————+
+              .h5.px-5.mt-2.mb-0 +———————————————————————————————————————+
+              .h5.px-5.mt-2.mb-0 | Grants for newuser@localhost 
+                span.white-line ———————————————————
+                span |                       
+              .h5.px-5.mt-2.mb-0 +———————————————————————————————————————+
+              .h5.px-5.mt-2.mb-0 | GRANT ALL PRIVILEGES ON *.* TO `newuser`@`localhost` 
+                span.white-line —
+                span  |
+              .h5.px-5.mt-2.mb-0 +———————————————————————————————————————+
               .h5.px-5.mt-2.mb-0 1 row in set (0.003 sec)
               .h5.px-5.mt-3.mb-0.pb-4 MariaDB [acl]>
           p.mt-4 Y para revocarlos será:
@@ -183,9 +187,10 @@
             .row
               .col-lg-12
                 .h5.px-5.pt-4.mb-0 mysql> CREATE DATABASE test db;
-                .h5.px-5.mt-2.mb-0 Query OK, 1 rows affected (0.01 sec)
-                .h5.px-5.mt-2.mb-0 Database changed;
-                .h5.px-5.mt-5.mb-0 mysql> CREATE TABLE persona (
+                .h5.px-5.mt-2.mb-5 Query OK, 1 rows affected (0.01 sec)
+                .h5.px-5.mt-2.mb-0 mysql> USE test db;
+                .h5.px-5.mt-2.mb-0 Database changed
+                .h5.px-5.mt-2.mb-0 mysql> CREATE TABLE persona (
                   .h5.px-5.mt-2.mb-0 -> id_persona INT KEY,
                   .h5.px-5.mt-2.mb-0 -> nombres VARCHAR(100),
                   .h5.px-5.mt-2.mb-0 -> apellidos VARCHAR(100),
@@ -193,9 +198,9 @@
                   .h5.px-5.mt-2.mb-0 -> fecha_nacimiento DATE);
                 .h5.px-5.mt-2.mb-0 Query OK, 0 rows affected (0.04 sec) 
                 .h5.px-5.mt-5.mb-0 mysql> CREATE TABLE telefono (
-                  .h5.px-5.mt-2.mb-0 mysql> -> persona_id INT,
-                  .h5.px-5.mt-2.mb-0 mysql> -> numero VARCHAR(20) PRIMARY KEY);
-                .h5.px-5.mt-2.mb-0 mysql> Query OK, 0 rows affected (0.02 sec)
+                  .h5.px-5.mt-2.mb-0  -> persona_id INT,
+                  .h5.px-5.mt-2.mb-0  -> numero VARCHAR(20) PRIMARY KEY);
+                .h5.px-5.mt-2.mb-0 Query OK, 0 rows affected (0.02 sec)
                 .h5.px-5.mt-5.mb-0 mysql>
           .col-md-4.align-self-center
             figure
@@ -234,32 +239,50 @@
 
       .py-4.py-md-5(titulo="Verificar los accesos" :icono="require('@/assets/template/tema-2-15.svg')")
         .row.mt-4
-          .col-8.col-md-8.bg-gris.rounded.letter-spacing-2
+          .col-8.col-md-8.bg-gris.rounded.letter-spacing-2.p-0.m-0
             .row
-              .col-lg-9
+              .col-lg-12.p-0.m-0
                 .h5.px-5.pt-4.mb-0 mysql> SHOW GRANTS FOR ‘readonly’@‘%’;
-                .h5.px-5.mt-2.mb-0 +———————————————————————+
-                .h5.px-5.mt-3.mb-0 | Grants for readonly@% |
-                .h5.px-5.mt-2.mb-0 +———————————————————————+
-                .h5.px-5.mt-3.mb-0 | GRANT USAGE ON *.* TO `readonly`@`%` |
-                .h5.px-5.mt-2.mb-0 | GRANT SELECT ON `test_db`.* TO `readonly`@`%` |
-                .h5.px-5.mt-2.mb-0 +———————————————————————+
+                .h5.px-5.mt-2.mb-0 +———————————————————————————————————+
+                .h5.px-5.mt-3.mb-0 | Grants for readonly@%
+                  span.white-line ————————————————————
+                  span |  
+                .h5.px-5.mt-2.mb-0 +———————————————————————————————————+
+                .h5.px-5.mt-3.mb-0 | GRANT USAGE ON *.* TO `readonly`@`%`
+                  span.white-line ———————— 
+                  span |
+                .h5.px-5.mt-2.mb-0 | GRANT SELECT ON `test_db`.* TO `readonly`@`%`
+                  span.white-line  —— 
+                  span |
+                .h5.px-5.mt-2.mb-0 +———————————————————————————————————+
                 .h5.px-5.mt-2.mb-0 2 rows in set (0.00 sec)
                 .h5.px-5.mt-5.mb-0 mysql> SHOW GRANTS FOR ‘updateonly’@‘%’;
-                .h5.px-5.mt-2.mb-0 +————————————————————————+
-                .h5.px-5.mt-2.mb-0 | Grants for updateonly@% |
-                .h5.px-5.mt-2.mb-0 +————————————————————————+
-                .h5.px-5.mt-2.mb-0 | GRANT USAGE ON *.* TO `updateonly`@`%` |
-                .h5.px-5.mt-2.mb-0 | GRANT UPDATE ON `test_db`.* TO `updateonly`@`%` |
-                .h5.px-5.mt-2.mb-0 +————————————————————————+
+                .h5.px-5.mt-2.mb-0 +———————————————————————————————————+
+                .h5.px-5.mt-2.mb-0 | Grants for updateonly@%
+                  span.white-line —————————————————— 
+                  span |
+                .h5.px-5.mt-2.mb-0 +———————————————————————————————————+
+                .h5.px-5.mt-2.mb-0 | GRANT USAGE ON *.* TO `updateonly`@`%`
+                  span.white-line ———————
+                  span |
+                .h5.px-5.mt-2.mb-0 | GRANT UPDATE ON `test_db`.* TO `updateonly`@`%`
+                  span.white-line —
+                  span |
+                .h5.px-5.mt-2.mb-0 +———————————————————————————————————+
                 .h5.px-5.mt-2.mb-0 2 rows in set (0.00 sec) 
                 .h5.px-5.mt-5.mb-0 mysql> SHOW GRANTS FOR ‘insertonly’@‘%’;
-                .h5.px-5.mt-2.mb-0 +————————————————————————+
-                .h5.px-5.mt-2.mb-0 | Grants for insertonly@% |
-                .h5.px-5.mt-2.mb-0 +————————————————————————+
-                .h5.px-5.mt-2.mb-0 | GRANT USAGE ON *.* TO `insertonly`@`%` |
-                .h5.px-5.mt-2.mb-0 | GRANT INSERT ON `test_db`.* TO `insertonly`@`%` |
-                .h5.px-5.mt-2.mb-0 +————————————————————————+
+                .h5.px-5.mt-2.mb-0 +———————————————————————————————————+
+                .h5.px-5.mt-2.mb-0 | Grants for insertonly@%
+                  span.white-line ———————————————————
+                  span |
+                .h5.px-5.mt-2.mb-0 +———————————————————————————————————+
+                .h5.px-5.mt-2.mb-0 | GRANT USAGE ON *.* TO `insertonly`@`%`
+                  span.white-line ——————— 
+                  span |
+                .h5.px-5.mt-2.mb-0 | GRANT INSERT ON `test_db`.* TO `insertonly`@`%`
+                  span.white-line  —  
+                  span |
+                .h5.px-5.mt-2.mb-0 +———————————————————————————————————+
                 .h5.px-5.mt-2.mb-0 2 rows in set (0.00 sec)
                 .h5.px-5.mt-5.mb-0.pb-4 mysql>
           .col-md-4
