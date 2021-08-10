@@ -233,10 +233,10 @@
 
 
       .py-4.py-md-5(titulo="Verificar los accesos" :icono="require('@/assets/template/tema-2-15.svg')")
-        .row.mt-4
+        .row.mt-4.mx-1
           .col-12.col-md-8.bg-gris.rounded.letter-spacing-2
             .row
-              .col-12.col-md-12.col-lg-10.p-0.m-0
+              .col-12.col-md-12.col-lg-10.px-2.m-0
                 .h5.px-5-lm.pt-4.mb-0 mysql> SHOW GRANTS FOR ‘readonly’@‘%’;
                 .h5.px-5-lm.mt-2.mb-0.alborde | Grants for readonly@% 
                   span |  
