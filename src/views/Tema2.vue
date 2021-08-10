@@ -259,7 +259,7 @@
                 .h5.px-0.mt-2.mb-0.alborde | GRANT USAGE ON *.* TO `insertonly`@`%`
                   span |
                 .h5.px-5-lm.mt-2.mb-0.alborde  | GRANT INSERT ON `test_db`.* TO `insertonly`@`%`
-                  span|
+                  span |
                 .h5.px-0.mt-2.mb-0 2 rows in set (0.00 sec)
                 .h5.px-0.mt-5.mb-0.pb-4 mysql>
           .col-md-4
