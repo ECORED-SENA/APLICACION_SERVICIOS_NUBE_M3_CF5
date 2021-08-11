@@ -167,13 +167,13 @@ export default {
       },
       {
         nombre: 'Henry Eduardo Bastidas Paruma',
-        cargo: 'Experto Temático',
+        cargo: 'Experto temático',
         centro:
           'Centro de Teleinformática y Producción Industrial - Regional Cauca',
       },
       {
         nombre: 'Peter Emerson Pinchao Solis',
-        cargo: 'Experto Temático',
+        cargo: 'Experto temático',
         centro:
           'Centro de Teleinformática y Producción Industrial - Regional Cauca',
       },
@@ -208,11 +208,6 @@ export default {
           'Centro Industrial del Diseño y la Manufactura  - Regional Santander',
       },
       {
-        nombre: 'Zuleidy Maria Ruiz Torres',
-        cargo: 'Producción audiovisual',
-        centro: 'Regional Tolima - Centro de Comercio y Servicios',
-      },
-      {
         nombre: 'Carmen Alicia Martínez Torres',
         cargo: 'Producción audiovisual',
         centro:
@@ -235,6 +230,11 @@ export default {
         cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura  - Regional Santander',
+      },
+      {
+        nombre: 'Zuleidy Maria Ruiz Torres',
+        cargo: 'Producción audiovisual',
+        centro: 'Regional Tolima - Centro de Comercio y Servicios',
       },
       {
         nombre: 'Lizeth Karina Manchego Suárez',
