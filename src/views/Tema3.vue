@@ -20,7 +20,7 @@
                 figure
                   img(src="@/assets/template/tema-3-2.svg" alt="Texto que describa la imagen")
               .col-12.col-lg-8
-                p A continuación, se darán las instrucciones a seguir en un modelo de datos para realizar pruebas de integridad de datos, para lo cual debe crear la siguiente base se de datos: 
+                p A continuación, se darán las instrucciones a seguir en un modelo de datos para realizar pruebas de integridad de datos, para lo cual debe crear la siguiente base de datos: 
     .h4.mt-5 Crear base de datos 
     .row.mt-4
       .col-8.col-md-8.bg-gris.rounded.letter-spacing-2

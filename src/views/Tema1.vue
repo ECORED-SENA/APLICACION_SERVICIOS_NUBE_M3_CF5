@@ -13,7 +13,7 @@
     .row.mt-4
       .col-10.col-md-8.offset-1.offset-md-2
         .cajon.color-primario.p-4.mb-4
-          p Según el breve panorama presentado hasta ahora, se describieron los tipos de prueba que se estudiarán en adelante, sin embargo, se deben considerar que están orientas al sistema de bases de datos. Las pruebas a realizar se enfocan, inicialmente, #[strong en pruebas de acceso y luego pruebas de integridad de datos e integridad] referencial. 
+          p Según el breve panorama presentado hasta ahora, se describieron los tipos de prueba que se estudiarán en adelante, sin embargo, se deben considerar que están orientadas al sistema de bases de datos. Las pruebas a realizar se enfocan, inicialmente, #[strong en pruebas de acceso y luego pruebas de integridad de datos e integridad] referencial. 
 </template>
 
 <script>

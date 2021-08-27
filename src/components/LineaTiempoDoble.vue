@@ -18,7 +18,7 @@ div
               figure
                 img(src='@/assets/template/tema-1-4.svg', alt='Texto que describa la imagen')
             .col-md-6.mb-4.mb-md-0.mt-4.mt-md-0
-              p Requieren que la aplicación esté 100 funcional y se dividen en pruebas de caja blanca (solo se validan características de un módulo o componente del sistema) o de caja negra (se revisa el cumplimiento de todo un requisito funcional completo desde un usuario final). 
+              p Requieren que la aplicación esté 100% funcional y se dividen en pruebas de caja blanca (solo se validan características de un módulo o componente del sistema) o de caja negra (se revisa el cumplimiento de todo un requisito funcional completo desde un usuario final). 
           
       .col-md-6
         //- LineaTiempoD debe ir acompañado de una de una de estas clases => 
